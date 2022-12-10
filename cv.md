@@ -8,7 +8,7 @@
 
 **Email:** daryalogvina89@gmail.com
 
-**GitHub:** Daria110
+**GitHub:** [Daria110](https://github.com/Daria110)
 
 ## **About me**
 
