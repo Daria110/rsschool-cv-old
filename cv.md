@@ -21,8 +21,8 @@ I'm self-motivated, responsible and hard working person. Currently, I am a fourt
 * Figma
 * Visual Studio Code
 
-## **Code examples**
-
+## **Code example**
+```
 describe("Multiply", () => {
   it("fixed tests", () => {
     assert.strictEqual(multiply(1,1), 1);
@@ -31,7 +31,7 @@ describe("Multiply", () => {
     assert.strictEqual(multiply(3,5), 15);   
   });
 });
-
+```
 ## **Experience**
 
 I don’t have the experience yet.
