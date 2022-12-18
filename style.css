@@ -10,10 +10,20 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-.container {
+html {
+    scroll-behavior: smooth;
+    background-color: #f4e8fd;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+.main-container {
     max-width: 1440px;
     margin: 0 auto;
 }
+/* navigation */
 .nav-list {
     display: flex;
     align-items: center;
@@ -22,42 +32,37 @@ body {
     padding: 0 150px;
     line-height: 50px;
 }
-nav {
+.nav {
     font-size: 16px;
     font-weight: 800;
     font-style: oblique;
     background-color: #9a6ac25c;
     padding: 5px 0px;
+    width: 100%;
 }
 .nav-link {
     text-decoration: none;
     color: black;
     transition: color 0.5s;
 }
-html {
-    scroll-behavior: smooth;
-    background-color: #f4e8fd;
-}
 .nav-link {
     transition: 3s;
 }
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
 .section {
-    width: 50%;
+    width: 100%;
     margin-top: 15px;
 }
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
+/* profile */
+.container-profile-about_me{
+    display: flex;
+    width: 70%;
+    margin-left: 200px;
+}
+.avatar {
+    border-radius: 10%;
 }
 h1 {
-    position: absolute;
-    left: 500px;
-    margin-top: 0px;
+    margin: 0;
     font-size: 80px;
     line-height: 70px;
 }
@@ -65,24 +70,26 @@ h2 {
     font-size: 28px;
 }
 .addition {
-    position: absolute;
-    left: 505px;
-    margin-top: 150px;
     font-size: 20px;
     line-height: 20px;
 }
-.avatar {
-    position: relative;
-    left: 200px;
-    border-radius: 10%;
+.profile-headlines{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.about-me {
+    margin-top: 55px;
 }
 /* section */
-#about-me {
-    margin: 0;
-    width: 500px;
-    position: absolute;
-    top: 370px;
-    left: 505px;
+.container-skills-code {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.container-projects-education {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
 #skills, #projects, #languages {
     position: relative;
@@ -91,10 +98,6 @@ h2 {
 }
 #code-example {
     list-style-type: none;
-}
-#profile {
-    width: 850px;
-    margin: 80px 0px 90px 0px;
 }
 #contacts {
     margin-bottom: 15px;
