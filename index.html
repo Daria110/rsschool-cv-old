@@ -10,9 +10,9 @@
     <title>CV</title>
 </head>
 <body>
-    <div class="container">
     <header>
-        <nav class="nav">
+        <nav>
+            <div class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -22,19 +22,18 @@
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                 <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
             </ul>
+        </div>
         </nav>
     </header>
     <main class="main-container">
         <section id="profile" class="section" >
-            <div>
-                <h1 class="section-title">DARIA <br> LOGVINA</h1>
+            <div class="container-profile-about_me">
+                <div><img class="avatar" src="./assets/img/me.jpg" alt="Avatar" width="270"></div>
+                <div class="profile-headlines"><h1 class="section-title">DARIA <br> LOGVINA</h1>
                 <p class="addition">&lt;future Front-end developer&#x2f;&gt;</p> 
-                <img class="avatar" src="./assets/img/me.jpg" alt="Avatar" width="270">
-            </div>            
-        </section>
-        <section class="section" id="about-me">
-            <h2 class="section-title">About me</h2>
-            <p>Hi! I'm self-motivated, responsible and hard working person. I&nbsp;like to try myself in different areas of knowledge, so I decided to study frontend at RS School.</p>
+                    <div class="about-me"><h2 class="section-title">About me</h2>
+                    <p>Hi! I'm self-motivated, responsible and hard working person. I&nbsp;like to try myself in different areas of knowledge, so I decided to study frontend at RS School.</p></div></div>
+        </div>            
         </section>
         <section id="contacts" class="section">
             <h2 class="section-title">Contacts</h2>
@@ -45,6 +44,7 @@
                 <li class="contacts"><img class="contacts-icon" src="./assets/img/icons8-github.svg" alt="github" width="40"><a class="link-contacts" href="https://github.com/Daria110" target="_blank">Daria110</a></li>
             </ul>
         </section>
+        <div class="container-skills-code">
         <section class="section" id="skills">
             <h2 class="section-title">Skills</h2>
             <ul>
@@ -69,6 +69,8 @@
     });
 </code></pre>
         </section>
+    </div>
+    <div class="container-projects-education">
         <section class="section" id="projects">
             <h2 class="section-title">Projects</h2>
             <p><a class="link-project" href="https://Daria110.github.io/rsschool-cv/" target="_blank">Curriculum Vitae</a></p>
@@ -80,6 +82,7 @@
                 <li>2019-2024 - Belarusian State Economic University, economist-manager</li>
             </ul>
         </section>
+    </div>
         <section class="section" id="languages">
             <h2 class="section-title">Languages</h2>
             <ul>
@@ -95,7 +98,6 @@
         <div class="container-footer">
         <a href="https://rs.school/js-stage0/" class="school-logo" target="_blank"><img class="logo-rsschool" src="./assets/img/rs_school_js.svg" alt="logo-rsschool" width="70"></a>
             <div class="copy"><a class="link-git" href="https://github.com/Daria110" target="_blank">&copy; Daria110</a> 2022</div>
-        </div>
     </footer>
 </body>
 </html>
