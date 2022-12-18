@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <title>cv</title>
+    <title>CV</title>
 </head>
 <body>
+    <div class="container">
     <header>
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
-                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Progects</a></li>
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                 <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
             </ul>
@@ -27,22 +28,22 @@
         <section id="profile" class="section" >
             <div>
                 <h1 class="section-title">DARIA <br> LOGVINA</h1>
-                <p class="addition">&lt;future Frontend developer&#x2f;&gt;</p> 
-                <img class="avatar" src="./assets/img/me.jpg" alt="Avatar" width="210">
+                <p class="addition">&lt;future Front-end developer&#x2f;&gt;</p> 
+                <img class="avatar" src="./assets/img/me.jpg" alt="Avatar" width="270">
             </div>            
+        </section>
+        <section class="section" id="about-me">
+            <h2 class="section-title">About me</h2>
+            <p>Hi! I'm self-motivated, responsible and hard working person. I&nbsp;like to try myself in different areas of knowledge, so I decided to study frontend at RS School.</p>
         </section>
         <section id="contacts" class="section">
             <h2 class="section-title">Contacts</h2>
             <ul>
-                <li>Locatoin: Minsk, Belarus</li>
-                <li>Phone: +375336098647</li>
-                <li>Email: daryalogvina89@gmail.com</li>
-                <li>GitHub: <a class="link-git" href="https://github.com/Daria110" target="_blank">Daria110</a></li>
+                <li  class="contacts"><img class="contacts-icon" src="./assets/img/icons8-visit-50.png" alt="location" width="30"><a class="link-contacts" href="https://www.google.by/maps/place/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.8847608,27.4532846,29567m/data=!3m2!1e3!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972?hl=ru" target="_blank"> Minsk, Belarus</a> </li>
+                <li class="contacts"> <img class="contacts-icon" src="./assets/img/icons8-phone.svg" alt="phone" width="32"><a class="link-contacts" href="callto:+375336098647" target="_blank">+375336098647</a></li>
+                <li class="contacts"><img class="contacts-icon" src="./assets/img/icons8-mail(1).svg" alt="mail" width="32"><a class="link-contacts" href="mailto:daryalogvina89@gmail.com" target="_blank"> daryalogvina89@gmail.com</a></li>
+                <li class="contacts"><img class="contacts-icon" src="./assets/img/icons8-github.svg" alt="github" width="40"><a class="link-contacts" href="https://github.com/Daria110" target="_blank">Daria110</a></li>
             </ul>
-        </section>
-        <section class="section" id="about-me">
-            <h2 class="section-title">About me</h2>
-            <p>I'm self-motivated, responsible and hard working person. Currently, I am a fourth-year student at the Belarusian State Economic University with a degree in Economics and Management at an Industrial Enterprise. I like to try myself in different areas of knowledge, so I decided to study frontend at RS School.</p>
         </section>
         <section class="section" id="skills">
             <h2 class="section-title">Skills</h2>
@@ -68,9 +69,9 @@
     });
 </code></pre>
         </section>
-        <section class="section" id="experience">
-            <h2 class="section-title">Experience</h2>
-            <p>I don’t have the experience yet.</p>
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <p><a class="link-project" href="https://Daria110.github.io/rsschool-cv/" target="_blank">Curriculum Vitae</a></p>
         </section>
         <section class="section" id="education">
             <h2 class="section-title">Education</h2>
@@ -89,9 +90,12 @@
             </ul>
         </section>
     </main>
+</div>
     <footer class="footer">
-        <div class="footer-content">&copy; 2022 <a class="link-git" href="https://github.com/Daria110">Daria110</a></div>
-        <a href="https://rs.school/js-stage0/" class="school-logo"></a>
+        <div class="container-footer">
+        <a href="https://rs.school/js-stage0/" class="school-logo" target="_blank"><img class="logo-rsschool" src="./assets/img/rs_school_js.svg" alt="logo-rsschool" width="70"></a>
+            <div class="copy"><a class="link-git" href="https://github.com/Daria110" target="_blank">&copy; Daria110</a> 2022</div>
+        </div>
     </footer>
 </body>
 </html>
