@@ -1,0 +1,145 @@
+body {
+    font-family: 'Spectral', serif;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: #f4e8fd;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* navigation */
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0 150px;
+    line-height: 50px;
+}
+.nav {
+    font-size: 16px;
+    font-weight: 800;
+    font-style: oblique;
+    background-color: #9a6ac25c;
+    padding: 5px 0px;
+    width: 100%;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+.nav-link {
+    transition: 3s;
+}
+.section {
+    width: 100%;
+    margin-top: 15px;
+}
+/* profile */
+.container-profile-about_me{
+    display: flex;
+    width: 70%;
+    margin-left: 200px;
+}
+.avatar {
+    border-radius: 10%;
+}
+h1 {
+    margin: 0;
+    font-size: 80px;
+    line-height: 70px;
+}
+h2 {
+    font-size: 28px;
+}
+.addition {
+    font-size: 20px;
+    line-height: 20px;
+}
+.profile-headlines{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.about-me {
+    margin-top: 55px;
+}
+/* section */
+.container-skills-code {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.container-projects-education {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#skills, #projects, #languages {
+    position: relative;
+    left: 200px;
+    margin-bottom: 15px;
+}
+#code-example {
+    list-style-type: none;
+}
+#contacts {
+    margin-bottom: 15px;
+    width: 1000px;
+    position: relative;
+    left: 200px;
+}
+.contacts {
+    display: inline;
+    margin-right:70px;
+    text-align: center;
+}
+.link-contacts {
+    text-decoration: none;
+    color: rgb(59, 0, 122);
+}
+.link-project {
+    text-decoration: none;
+    color: rgb(59, 0, 122)
+}
+.footer {
+    background-color: rgba(154, 106, 194, 0.361);
+    height: 80px;
+}
+.footer-content{
+    list-style-type: none;
+}
+.link-git {
+    text-decoration: none;
+    color: rgb(59, 0, 122)
+}
+.logo-rsschool {
+    position: relative;
+    top: 20px;
+    left: 900px;
+}
+.copy {
+    position: relative;
+    left: 8px;
+}
+.container-footer {
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding-right: 0;
+}
